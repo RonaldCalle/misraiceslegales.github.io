@@ -1,344 +1,221 @@
 <!DOCTYPE html>
-<html lang="sp">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ronald Erwin Calle Choque</title>
     <style>
-        *{
-    margin: 0;
-    padding: 0%;
-}
-header {
-    width: 100%;
-    background-color: rgb(73, 149, 124);
-    color: white;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-header h1{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-}
-header h2{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-}
-section{
-    width: 70%;
-    margin: 0 auto;
-    background-color: blanchedalmond;
-}
-article{
-    padding: 20PX 0 20px 0;
-    border-bottom: 1px dotted darkgrey;
-    border-top: 2px solid rgb(8, 116, 210);
-}
-article h2{
-    float: left;
-    border-bottom: 2px solid cadetblue;
-    padding-bottom: 3px;
-    line-height: 1.3em;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-left: 3%;
-    
-}
-article ul{
-    margin-left: 5%;
-    margin-right: 10%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkgreen;
-    line-height: 1em;
-    margin-bottom: 1.5;
-    text-align: justify;
-    
-}
-article ul li{
-    margin-left: 15px;
-    list-style: square;
-    
-}
-footer{
-
-    padding: 1em;
-    width: 100%;
-    color: azure;
-    background-color: darkolivegreen;
-    text-align: center;
-}
-
-.contenedor {
-    max-width: 100%;
-    margin: 100px auto;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 25px;
-    row-gap: 25px ;
-}
-
-.parte-1 img{
-    width: 300px;
-    margin-left: 20%;
-    margin-top: 1%;
-
-}
-.parte-3 img{
-    width: 300px;
-    margin-left: 20%;
-    margin-top: 1%;
-
-}
-
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            width: 100%;
+            background-color: rgb(73, 149, 124);
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+        header h2 {
+            font-size: 1.5em;
+            font-style: italic;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        article {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            border-left: 5px solid rgb(8, 116, 210);
+        }
+        article h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: rgb(8, 116, 210);
+        }
+        article ul {
+            list-style-type: square;
+            margin-left: 20px;
+            margin-top: 10px;
+            color: darkgreen;
+        }
+        article ul li {
+            margin: 5px 0;
+        }
+        footer {
+            padding: 1em;
+            color: azure;
+            background-color: darkolivegreen;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contenedor {
+            max-width: 100%;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .parte-1 img, .parte-3 img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            header h2 {
+                font-size: 1.2em;
+            }
+            article h2 {
+                font-size: 1.5em;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>CAPACITACIÓN DE TIERRA AGRARIAS</h1>
-        <H2>“ La tierra es para quien la trabaja”</H2>
+        <h2>“La tierra es para quien la trabaja”</h2>
     </header>
     <section>
         <article>
-            <h2> ¿QUÉ ES EL INRA? ¿QUÉ HACE EL INRA? </h2> <br><br><br>
+            <h2>¿QUÉ ES EL INRA? ¿QUÉ HACE EL INRA?</h2>
             <ul>
-                El INRA es el Instituto Nacional de Reforma Agraria es un organismo boliviano encargado de
-                    regular y garantizar la propiedad agraria. Su principal objetivo es promover la reforma
-                    agraria, asegurando el acceso a la tierra para comunidades campesinas e indígenas. A través de
-                    la Ley 1715 (INRA) se establece un marco legal que facilita la titulación de tierras y protege los
-                    derechos de los propietarios, Además que busca organizar y garantizar la producción agrícola,
-                    la propiedad agraria y fomentar el uso sostenible de los recursos naturales, contribuyendo así al
-                    desarrollo rural y la seguridad jurídica de los agricultores.
-
+                <li>El INRA es el Instituto Nacional de Reforma Agraria, un organismo boliviano encargado de regular y garantizar la propiedad agraria.</li>
+                <li>Promueve la reforma agraria, asegurando el acceso a la tierra para comunidades campesinas e indígenas.</li>
+                <li>Facilita la titulación de tierras y protege los derechos de los propietarios.</li>
+                <li>Busca organizar y garantizar la producción agrícola y fomentar el uso sostenible de los recursos naturales.</li>
             </ul>
         </article>
         <article>
-            <h2> TIPOS DE PROPIEDAD - Ley 1715 INRA ART 42 ( clasificación de las propiedades agrarias)</h2>
-            <ul><br><br><br>
-                <b>SOLAR CAMPESINO: lugar de residencia familiar, es:</b><br>
-                <li>Indivisible</li>
-                <li>Intransferible (herencia o venta)</li>
-                <li>Inembargable</li>
-                <li>No pagan impuestos</li>
-            <br>
-
-            <b>PEQUEÑA PROPIEDAD: lo que trabaja el campesino o su familia, es:</b><br>
-                <li>Indivisible</li>
-                <li>Intransferible (herencia o venta)</li>
-                <li>Inembargable</li>
-                <li>No pagan impuestos</li>
-            <br>
-
-            <b>PROPIEDAD COMUNITARIA: tierras tituladas colectivamente, es:</b><br>
-                <li>Indivisible</li>
-                <li>Intransferible (herencia o venta)</li>
-                <li>Inembargable</li>
-                <li>No pagan impuestos</li>
-            <br>
-            <b>TCO/TIOE: lugar donde viven las comunidades y pueblos</b>
-            <br>
-            <br>
-            <b>MEDIANA PROPIEDAD: propiedad donde se produce para el mercado, es:</b><br>
-            <li>Transferible</li>
-            <li>Divisible</li>
-            <li>Embargable</li>
-            <li>Pagan impuestos</li>
-        <br>
-        <b>EMPRESA AGRÍCOLA: propiedad donde existen Inversiones y asalariados, es:</b><br>
-            <li>Transferible</li>
-            <li>Divisible</li>
-            <li>Embargable</li>
-            <li>Pagan impuestos</li>
-        <br>
-
+            <h2>TIPOS DE PROPIEDAD - Ley 1715 INRA ART 42</h2>
+            <ul>
+                <li><b>SOLAR CAMPESINO:</b> lugar de residencia familiar, es indivisible, intransferible, inembargable y no paga impuestos.</li>
+                <li><b>PEQUEÑA PROPIEDAD:</b> lo que trabaja el campesino o su familia, es indivisible, intransferible, inembargable y no paga impuestos.</li>
+                <li><b>PROPIEDAD COMUNITARIA:</b> tierras tituladas colectivamente, es indivisible, intransferible, inembargable y no paga impuestos.</li>
+                <li><b>TCO/TIOE:</b> lugar donde viven las comunidades y pueblos.</li>
+                <li><b>MEDIANA PROPIEDAD:</b> propiedad donde se produce para el mercado, es transferible, divisible, embargable y paga impuestos.</li>
+                <li><b>EMPRESA AGRÍCOLA:</b> propiedad donde existen inversiones y asalariados, es transferible, divisible, embargable y paga impuestos.</li>
             </ul>
         </article>
         <article>
             <h2>¿QUÉ ES LA FUNCIÓN SOCIAL Y LA FUNCIÓN ECONÓMICO SOCIAL?</h2>
-            <ul><br><br><br>
-                La función social y la función económico-social son conceptos clave en la legislación agraria
-                establecidos por la Constitución y la Ley INRA.
-                <br><br>
-                <b>Función Social: </b>Es el uso de la propiedad agraria para el bienestar de la comunidad. Implica
-                que los propietarios deben trabajar la tierra para garantizar su subsistencia y contribuir al
-                desarrollo social.
+            <ul>
+                <li><b>Función Social:</b> Uso de la propiedad agraria para el bienestar de la comunidad, garantizando la subsistencia y el desarrollo social.</li>
+                <li><b>Función Económico-Social:</b> Uso sostenible de la tierra para actividades productivas, maximizando el beneficio colectivo y del propietario.</li>
             </ul>
         </article>
         <article>
-            <h2>¿ CÓMO SE DEMUESTRA LA FUNCIÓN SOCIAL?</h2><br><br><br>
+            <h2>¿CÓMO SE DEMUESTRA LA FUNCIÓN SOCIAL?</h2>
             <ul>
-                <li>Con la residencia en el lugar o zona</li><br>
-                <li>Actividad agrícola</li>
+                <li>Con la residencia en el lugar o zona.</li>
+                <li>Actividad agrícola.</li>
             </ul>
-        
-    </article>
-            <article>
-            <h2>¿QUIENES CUMPLEN LA FUNCIÓN SOCIAL?</h2><br><br><br>
-            <ul>
-                <li>La pequeña propiedad</li><br>
-                <li>Propiedades comunitarias</li><br>
-                <li>Solares campesinos</li><br>
-                <li>Propiedades colectivas</li><br><br>
-                <b>Función Económico-Social:</b> Establecida en el artículo 397 de la Constitución, se centra en el uso sostenible de la tierra  para 
-                actividades productivas, como la agricultura y la conservación del medio ambiente. Busca maximizar el beneficio colectivo y 
-                del propietario, asegurando que las tierras se utilicen de manera eficiente y responsable.
-            </ul>       
         </article>
         <article>
-            <h2>¿CÓMO SE DEMUESTRA LA FUNCIÓN ECONÓMICO SOCIAL?</h2><br><br><br>
+            <h2>¿QUIÉNES CUMPLEN LA FUNCIÓN SOCIAL?</h2>
             <ul>
-                <li>Cumplimiento de Actividades Productivas</li><br>
-                <li>Bienestar de sus propietarios y comunidades indígenas o campesinas, alineándose con su
-                    capacidad de uso</li>
+                <li>La pequeña propiedad.</li>
+                <li>Propiedades comunitarias.</li>
+                <li>Solares campesinos.</li>
+                <li>Propiedades colectivas.</li>
             </ul>
-        
-    </article>
-
-    <article>
-        <h2>¿QUIENES CUMPLEN LA FUNCIÓN ECONÓMICO SOCIAL?</h2><br><br><br>
-        <ul>
-            <li>Pequeñas propiedades</li><br>
-            <li>Propiedad comunitaria</li><br>
-            <li>Mediana propiedad</li><br>
-            <li>Empresa Agrícola</li><br><br>
-            Ambas funciones son fundamentales para garantizar el acceso a la tierra promoviendo un
-            desarrollo equitativo y sostenible.
-        </ul>       
-    </article>
-
-    <article>
-        <h2>¿QUÉ ES EL SANEAMIENTO AGRARIO Y PARA QUÉ SIRVE? - Ley 1715 INRA ART 64 al
-            65 (saneamiento)</h2><br><br><br>
-        <ul>
-            El saneamiento agrario es un proceso técnico-jurídico destinado a regularizar y perfeccionar el
-            derecho de propiedad sobre la tierra. Su principal objetivo es garantizar que las tierras
-            cumplan con la función económico-social y sean utilizadas de manera productiva y sostenible.
-            <br><br>
-            <b>Propósitos del Saneamiento Agrario</b><br><br>
-
-            <b>Titulación de Tierras:</b> Facilita la titulación de tierras que han estado en uso y que cumplen con
-            los criterios establecidos, incluso si no cuentan con trámites agrarios previos. <br><br>
-            <b>Resolución de Conflictos: </b> Ayuda a solucionar conflictos de tierras y superposiciones de
-            derechos agrarios, promoviendo un ordenamiento territorial más claro. <br><br>
-            <b>Seguridad Jurídica : </b>Proporciona seguridad jurídica a los propietarios, permitiendo un mejor
-            acceso a créditos y recursos para el desarrollo agrícola.
-
-        </ul>       
-    </article>
-
-    <article>
-        <h2>¿QUÉ ES LATIFUNDIO Y EL MINIFUNDIO?</h2><br><br><br>
-        <ul>
-            <b>LATIFUNDIO :</b> Es una explotación agraria de gran extensión, generalmente en manos de un
-            único propietario o un pequeño grupo. Los latifundios suelen asociarse con la baja
-            productividad, el uso ineficiente de los recursos y la concentración de la riqueza, lo que
-            contribuye a la desigualdad social. <br><br>
-            <b>MINIFUNDIO :</b> El minifundio es una propiedad agraria de pequeña extensión, que no permite
-            una producción eficiente debido a sus limitaciones en tamaño y recursos. Los minifundios suelen
-            ser explotaciones familiares que permiten una economía agrícola de subsistencia, Al igual que
-            los latifundios, los minifundios presentan bajos niveles de inversión y desarrollo tecnológico.
-
-        </ul>       
-    </article>
-    <article>
-        <h2>CONCEPTOS</h2><br><br><br>
-        <ul>
-            <li> <b>Dotación :</b> la dotación se refiere a la entrega de tierras fiscales a comunidades
-                indígenas, campesinas y afro-bolivianas que no poseen tierras. Este proceso
-                busca garantizar el acceso a la tierra y promover el desarrollo rural sostenible,
-                respetando las realidades ecológicas y culturales de las comunidades. </li><br>
-            <li><b>Reversión : </b>La reversión es el proceso mediante el cual la tierra que no cumple
-                con la función económico-social o que se considera latifundio regresa al dominio
-                del Estado. Esto ocurre cuando los propietarios no utilizan la tierra de manera
-                productiva o sostenible, permitiendo que el Estado reasigne esas tierras para su
-                uso adecuado.</li><br>
-            <li><b>Expropiación : </b>La expropiación es un acto legal mediante el cual el Estado puede
-                adquirir tierras privadas por razones de necesidad o utilidad pública. Este
-                mecanismo se utiliza para facilitar proyectos de interés colectivo, como la
-                construcción de infraestructuras o la redistribución de tierras para mejorar la
-                equidad social.</li><br>
-        </ul>       
-    </article>
-    <article>
-        <h2>¿QUÉ SON LAS TIERRAS FISCALES, ZONA PROTEGIDA Y TIERRAS
-            CONCESIONADAS?</h2><br><br><br>
-        <ul>
-            <li> <b>TIERRAS FISCALES :</b> las tierras fiscales son las que pertenecen al Estado y están disponibles
-                para ser dotadas a comunidades campesinas, indígenas y afro bolivianas que no poseen tierras o
-                tienen insuficientemente. </li><br>
-            <li><b>ÁREAS PROTEGIDAS : </b>Estas son zonas designadas por el Estado para la conservación de la
-                biodiversidad y los ecosistemas. En Bolivia, alrededor del 15% del área total de tierra rural
-                corresponde a tierras fiscales dentro de áreas protegidas.</li><br>
-            <li><b>TIERRAS CONCESIONADAS: </b>son aquellas que el Estado otorga a particulares o empresas
-                para su uso y explotación, generalmente en el contexto de recursos naturales, como la
-                agricultura, la ganadería o la explotación forestal. Estas concesiones permiten a los beneficiarios
-                aprovechar los recursos de la tierra bajo ciertas condiciones y regulaciones establecidas por el
-                gobierno.</li><br>
-        </ul>       
-    </article>
-    <article>
-        <h2>IMPORTANCIA DE LAS TIERRAS FISCALES, ÁREAS PROTEGIDAS Y TIERRAS CONCESIONADAS</h2><br><br><br>
-        <ul>
-            Las tierras fiscales y áreas protegidas son significativas, ya que muchas de estas áreas son
-            cruciales para la conservación ambiental. Sin embargo, también presentan desafíos, como la
-            deforestación y los asentamientos ilegales en tierras fiscales no disponibles, y las tierras
-            concesionadas son muy importantes para la economía ya que permiten la explotación de
-            recursos naturales que contribuyen al desarrollo económico.
-        </ul>
-    
-    </article>
-    <article>
-        <h2>¿QUÉ ES LA PAUSA AMBIENTAL?</h2><br><br><br>
-        <ul>
-            Es una medida decretada por el gobierno para proteger el medio ambiente y la salud de la
-            población, especialmente en respuesta a la devastación causada por incendios forestales. Esta
-            pausa implica la suspensión de todas las autorizaciones de quemas y prohíbe nuevas emisiones
-            de permisos relacionados con quemas a nivel nacional.
-        </ul>
-    
-    </article>
-    <article>
-        <h2>¿QUÉ ES EL AVASALLAMIENTO?</h2><br><br><br>
-        <ul>
-            <li>Es la invasión, violenta o sin violencia y la posesión de tierras ilegal.</li><br>
-            <li>El avasallamiento puede ser en áreas protegidas o en propiedad privada.</li><br>
-            <li>El saneamiento sirve para la titulación de las tierras que fueron avasalladas, si tienen una posesión de más de 10 años.</li><br><br>
-            <b>El procedimiento para la demanda de avasallamiento esta estipulado en la Ley 477</b><br><br>
-            <li>Tipo de propiedad ART 2</li><br>
-            <li>Cómo se a dado el avasallamiento ART 3</li><br>
-            <li>Procedimiento de desalojo ART 5</li><br><br>
-            Si no hay un derecho propietario no procede la demanda.
-        </ul>       
-    </article>
-    <article>
-        <h2>TIPOS DE CONTRATO AGRARIO</h2><br><br><br>
-        <ul>
-                <li> <b>APARCERÍA :</b> donde el propietario cede su tierra a una persona (aparcero), la cual se encarga de cultivar y compartir los frutos, la duración del contrato es mínimo de un año y tiene una extensión máxima del 20 al 50% de la propiedad. </li><br>
-                <li><b>ARRENDAMIENTO : </b>se otorga el uso de las tierras a cambio de una renta o la explotación
-                agrícola, la duración del contrato es a largo plazo y tiene una extensión máxima del 50% de la
-                propiedad.</li><br>
-                <li><b>TRANSMISIÓN DE PROPIEDAD AGRARIA: </b>la transferencia de derechos de propiedad y la
-                titularidad de las tierras agrícolas, la duración del contrato es variable según el acuerdo entre
-                partes y es Inter vivos, Transferencia, Las tierras colectivas no pueden ser Transferidas.</li><br>
-                <li><b>CONTRATO DE TRABAJO AGRARIO: </b>es una relación laboral donde un trabajador realiza
-                las actividades agrícolas a cambio de un salario, la duración del contrato es variable según la
-                legislación laboral y el cumplimiento de normas laborales.</li><br>
-                <li><b>CONTRATO DE MAQUINARIA: </b>acuerdo para el uso o alquiler de las maquinaria, regulando
-                    condiciones de uso y pago, la duración del contrato es entre corto y medio plazo y la relación
-                    entre los sujetos productivos.
-
-                </li>
-        </ul>   
+        </article>
+        <article>
+            <h2>¿QUÉ ES EL SANEAMIENTO AGRARIO Y PARA QUÉ SIRVE?</h2>
+            <ul>
+                <li>Proceso técnico-jurídico para regularizar y perfeccionar el derecho de propiedad sobre la tierra.</li>
+                <li>Facilita la titulación de tierras y resuelve conflictos agrarios.</li>
+                <li>Proporciona seguridad jurídica a los propietarios.</li>
+            </ul>
+        </article>
+        <article>
+            <h2>¿QUÉ ES LATIFUNDIO Y MINIFUNDIO?</h2>
+            <ul>
+                <li><b>LATIFUNDIO:</b> Explotación agraria de gran extensión, asociada a baja productividad y concentración de riqueza.</li>
+                <li><b>MINIFUNDIO:</b> Propiedad agraria de pequeña extensión, que limita la producción eficiente.</li>
+            </ul>
+        </article>
+        <article>
+            <h2>CONCEPTOS</h2>
+            <ul>
+                <li><b>Dotación:</b> Entrega de tierras fiscales a comunidades que no poseen tierras.</li>
+                <li><b>Reversión:</b> Proceso mediante el cual la tierra que no cumple con la función económico-social regresa al Estado.</li>
+                <li><b>Expropiación:</b> Acto legal mediante el cual el Estado adquiere tierras privadas por razones de utilidad pública.</li>
+            </ul>
+        </article>
+        <article>
+            <h2>¿QUÉ SON LAS TIERRAS FISCALES, ZONA PROTEGIDA Y TIERRAS CONCESIONADAS?</h2>
+            <ul>
+                <li><b>TIERRAS FISCALES:</b> Pertenecen al Estado y están disponibles para ser dotadas a comunidades.</li>
+                <li><b>ÁREAS PROTEGIDAS:</b> Zonas designadas para la conservación de la biodiversidad.</li>
+                <li><b>TIERRAS CONCESIONADAS:</b> Otorgadas a particulares o empresas para su uso y explotación.</li>
+            </ul>
+        </article>
+        <article>
+            <h2>IMPORTANCIA DE LAS TIERRAS FISCALES, ÁREAS PROTEGIDAS Y TIERRAS CONCESIONADAS</h2>
+            <ul>
+                <li>Las tierras fiscales y áreas protegidas son cruciales para la conservación ambiental.</li>
+                <li>Las tierras concesionadas son importantes para la economía y la explotación de recursos naturales.</li>
+            </ul>
+        </article>
+        <article>
+            <h2>¿QUÉ ES LA PAUSA AMBIENTAL?</h2>
+            <ul>
+                <li>Es una medida decretada por el gobierno para proteger el medio ambiente y la salud de la población, especialmente en respuesta a la devastación causada por incendios forestales.</li>
+                <li>Implica la suspensión de todas las autorizaciones de quemas y prohíbe nuevas emisiones de permisos relacionados con quemas a nivel nacional.</li>
+            </ul>
+        </article>
+        <article>
+            <h2>¿QUÉ ES EL AVASALLAMIENTO?</h2>
+            <ul>
+                <li>Es la invasión, violenta o sin violencia, y la posesión de tierras de manera ilegal.</li>
+                <li>Puede ocurrir en áreas protegidas o en propiedad privada.</li>
+                <li>El saneamiento sirve para la titulación de las tierras que fueron avasalladas, si tienen una posesión de más de 10 años.</li>
+                <li>El procedimiento para la demanda de avasallamiento está estipulado en la Ley 477.</li>
+            </ul>
+        </article>
+        <article>
+            <h2>TIPOS DE CONTRATO AGRARIO</h2>
+            <ul>
+                <li><b>APARCERÍA:</b> El propietario cede su tierra a una persona (aparcero) para cultivar y compartir los frutos.</li>
+                <li><b>ARRENDAMIENTO:</b> Se otorga el uso de las tierras a cambio de una renta o explotación agrícola.</li>
+                <li><b>TRANSMISIÓN DE PROPIEDAD AGRARIA:</b> Transferencia de derechos de propiedad y titularidad de tierras agrícolas.</li>
+                <li><b>CONTRATO DE TRABAJO AGRARIO:</b> Relación laboral donde un trabajador realiza actividades agrícolas a cambio de un salario.</li>
+                <li><b>CONTRATO DE MAQUINARIA:</b> Acuerdo para el uso o alquiler de maquinaria, regulando condiciones de uso y pago.</li>
+            </ul>
+        </article>
     </section>
     <div class="contenedor">  
-        <div class="parte parte-1"><img src="unifranz.jpg" alt=""></div>
+        <div class="parte parte-1"><img src="unifranz.jpg" alt="Imagen de Unifranz"></div>
         <div class="parte parte-2"></div>
-        <div class="parte parte-3"><img src="bandera.jpg" alt=""></div>
+        <div class="parte parte-3"><img src="bandera.jpg" alt="Imagen de la Bandera"></div>
     </div>
     <footer>
-        <p>INFORMACION SACADA DEL INRA LEY 1517</p>
+        <p>INFORMACIÓN SACADA DEL INRA LEY 1517</p>
     </footer>
 </body>
 </html>
